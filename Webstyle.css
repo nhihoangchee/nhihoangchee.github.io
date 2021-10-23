@@ -58,6 +58,9 @@ a{
   box-sizing: border-box;
   height: 300px;
 }
+#sidebar img{
+  border-radius:50%;
+}
 #abtme{
   clear: right;
   padding-left: 150px;
