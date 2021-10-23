@@ -1,0 +1,80 @@
+*{
+  font-family: arial;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: #C8102E;
+  color: white;
+  padding: 15px 15px 15px 50px;
+  display: flex;
+  justify-content:space-between;
+}
+.navbar ul{
+  list-style: none;
+  padding: 0;
+}
+.navbar li{
+  display: inline-block;
+}
+a{
+  color: white;
+  text-decoration: none;
+  padding-right: 50px;
+  font-size: 18px;
+}
+#home{
+  margin-right: auto;
+}
+.des{
+  background-image:url(https://online.stanford.edu/sites/default/files/styles/figure_default/public/2020-02/chemical-engineering-graduate-certificate.jpg?itok=mzvSf77x);
+  background-position: center right;
+  background-size: cover;
+  height:250px;
+  text-align:center;
+  color: white;
+  width: 100%;
+}
+.des h1{
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 60px;
+}
+.des p{
+  font-size: 18px;
+}
+#welcome{
+  padding-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+#sidebar{
+  float: left;
+  padding-left: 60px;
+  padding-right: 75px;
+  box-sizing: border-box;
+  height: 300px;
+}
+#abtme{
+  clear: right;
+  padding-left: 150px;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+#abtme h2{
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#abtme p{
+  line-height: 30px;
+  padding-bottom: 7px;
+}
+#main-footer{
+  text-align: right;
+  padding: 10px;
+  margin-top: 70px;
+}
